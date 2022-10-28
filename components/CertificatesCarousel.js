@@ -28,21 +28,18 @@ export default function CertificatesCarousel() {
     <div className="my-8">
       <a name="certificates" />
       <p className="title">Certificates</p>
-      <div className="flex w-full justify-center">
+      <div className="flex w-full justify-center ">
         <Carousel
           responsive={responsive}
-          itemClass="w-auto h-auto flex justify-center mx-5"
-          containerClass="w-full  md:w-9/12 flex justify-self-center"
-          removeArrowOnDeviceType="mobile"
+          itemClass="w-auto h-auto flex justify-center  mx-5 md:mx-0"
+          containerClass="w-full  md:w-9/12 flex "
           focusOnSelect={true}
           centerMode
         >
-          {certificate.map(
-            ({ certificateImage, certificateName, institution }) => {
-              const data = { certificateImage, certificateName, institution };
-              return <SingleCerticate key={certificateName} {...data} />;
-            }
-          )}
+          {certificate.map(({ certificateImage, certificateName, url }) => {
+            const data = { certificateImage, certificateName, url };
+            return <SingleCerticate key={certificateName} {...data} />;
+          })}
         </Carousel>
       </div>
     </div>

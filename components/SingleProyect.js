@@ -22,12 +22,14 @@ export default function SingleProyect({
       <div className="rounded-xl h-auto w-full">
         <div className="h-4/6 rounded-t-xl flex justify-center">
           <div className="w-full h-60 relative">
-            <Image
-              src={image}
-              layout="fill"
-              alt="proyect"
-              className="object-cover rounded-t-xl"
-            />
+            <a href={url} rel="noopener noreferrer" target="_blank">
+              <Image
+                src={image}
+                layout="fill"
+                alt="proyect"
+                className="object-cover rounded-t-xl"
+              />
+            </a>
           </div>
         </div>
         <div className="h-auto flex flex-wrap w-full p-4 relative bg-neutral-300 rounded-b-xl min-h-[80px]">

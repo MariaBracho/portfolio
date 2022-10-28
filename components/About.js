@@ -30,16 +30,13 @@ export default function About() {
               <div className="w-6 h-auto">
                 <div className="h-4 w-4 rounded-full bg-green_light" />
               </div>
-              <p>
-                Cuando tengo problemas trato de buscar una solución, en lugar de
-                estresarme.
-              </p>
+              <p className="ml-2">Me agrada trabajar en equipo</p>
             </div>
             <div className="flex gab-1">
               <div className="w-6 h-auto">
                 <div className="h-4 w-4 rounded-full bg-green_light" />
               </div>
-              <p>Muchas ganas de seguir aprendiendo.</p>
+              <p className="ml-2">Muchas ganas de seguir aprendiendo.</p>
             </div>
             <div className="flex gab-1 col-start-3 col-end-4">
               <div className="w-6 h-auto">

@@ -17,63 +17,75 @@ const CERTIFICATES_DATA = () => {
     {
       certificateName: "Introducción a React",
       certificateImage: reactCertificate,
+      url: "https://platzi.com/p/mariabracho/curso/2444-react/diploma/detalle/",
       institution: "Platzi",
     },
     {
       certificateName: "Curso práctico de JavaScript",
       certificateImage: javaScriptCerticate,
       institution: "Platzi",
+      url: "https://platzi.com/p/mariabracho/curso/2327-javascript-practico-2021/diploma/detalle/",
     },
     {
       certificateName: "Curso de Next",
       certificateImage: nextCertificate,
       institution: "Platzi",
+      url: "https://platzi.com/p/mariabracho/curso/1991-next/diploma/detalle/",
     },
     {
       certificateName: "Curso de Fundamentos de TypeScript",
       certificateImage: typeScriptCertificate,
       institution: "Platzi",
+      url: "https://platzi.com/p/mariabracho/curso/2878-typescript/diploma/detalle/",
     },
     {
       certificateName: "Curso de Asincronismo con JavaScript",
       certificateImage: SynchronyCertificate,
+      url: "https://platzi.com/p/mariabracho/curso/3175-asincronismo-js/diploma/detalle/",
       institution: "Platzi",
     },
     {
       certificateName: "Curso de consumo de API REST con JavaScript",
       certificateImage: apiRestCertificate,
       institution: "Platzi",
+      url: "https://platzi.com/p/mariabracho/curso/2985-api/diploma/detalle/",
     },
     {
       certificateName: "Curso de expresiones regulares",
       certificateImage: expressionsRegularCertificate,
       institution: "Platzi",
+      url: "https://platzi.com/p/mariabracho/curso/1301-expresiones-regulares/diploma/detalle/",
     },
     {
       certificateName: "Curso de css grid",
       certificateImage: cssGridCertificate,
       institution: "Platzi",
+      url: "https://platzi.com/p/mariabracho/curso/2474-css-grid/diploma/detalle/",
     },
     {
       certificateName: "Curso de frontend developer",
       certificateImage: frontendDeveloperCertificate,
       institution: "Platzi",
+      url: "https://platzi.com/p/mariabracho/curso/2467-frontend-developer/diploma/detalle/",
     },
     {
       certificateName: "Curso definitivo de HTML y CSS",
       certificateImage: htmlAndCssCeertificate,
       institution: "Platzi",
+      url: "https://platzi.com/p/mariabracho/curso/2008-html-css/diploma/detalle/",
     },
     {
       certificateName: "Curso práctico de HTML y CSS",
       certificateImage: htmlAndCssPractice,
       institution: "Platzi",
+      url: "https://platzi.com/p/mariabracho/curso/1758-html-practico/diploma/detalle/",
     },
     {
       certificateName:
         "Curso de Single Page Application con JavaScript vanilla",
       certificateImage: SPACerticate,
       institution: "Platzi",
+      url: "https://platzi.com/p/mariabracho/curso/1787-spa-javascript/diploma/detalle/",
     },
   ];
 };
