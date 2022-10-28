@@ -17,8 +17,8 @@ export default function SingleProyect({
   };
 
   return (
-    <div className="h-auto rounded-xl shadow-md w-full p-2 md:p-5 relative">
-      <p className="text-xl font-medium flex justify-start">{name}</p>
+    <div className="h-auto rounded-xl shadow-md bg-gray-50 w-full p-2 md:p-5 relative">
+      <p className="text-xl font-medium flex justify-start mb-2">{name}</p>
       <div className="rounded-xl h-auto w-full">
         <div className="h-4/6 rounded-t-xl flex justify-center">
           <div className="w-full h-60 relative">
@@ -35,7 +35,7 @@ export default function SingleProyect({
         <div className="h-auto flex flex-wrap w-full p-4 relative bg-neutral-300 rounded-b-xl min-h-[80px]">
           <p className={showMore ? "" : "truncate"}>{description}</p>
           <a
-            className="text-neutral-800  cursor-pointer ml-2"
+            className="text-neutral-600  cursor-pointer ml-2"
             onClick={seeMore}
           >
             {showMore ? "see less" : "see more"}

@@ -21,7 +21,7 @@ export default function About() {
               <div className="w-6 h-auto">
                 <div className="h-4 w-4 rounded-full bg-green_light" />
               </div>
-              <p>Autodidacta</p>
+              <p>Autodidacta.</p>
             </div>
             <div className="col-start-2 col-end-3 row-start-1 row-end-3 row-span-4 h-full flex items-end justify-center ">
               <div className="bg-[url('../public/assets/Images/human.svg')] w-[120px] bg-no-repeat  bg-contain h-[120px] justify-self-center md:w-40 md:h-40 "></div>
@@ -30,7 +30,7 @@ export default function About() {
               <div className="w-6 h-auto">
                 <div className="h-4 w-4 rounded-full bg-green_light" />
               </div>
-              <p className="ml-2">Me agrada trabajar en equipo</p>
+              <p className="ml-2">Me agrada trabajar en equipo.</p>
             </div>
             <div className="flex gab-1">
               <div className="w-6 h-auto">
@@ -42,7 +42,7 @@ export default function About() {
               <div className="w-6 h-auto">
                 <div className="h-4 w-4 rounded-full bg-green_light" />
               </div>
-              <p>Curiosa</p>
+              <p>Curiosa.</p>
             </div>
           </div>
         </div>

@@ -31,10 +31,10 @@ export default function CertificatesCarousel() {
       <div className="flex w-full justify-center ">
         <Carousel
           responsive={responsive}
-          itemClass="w-auto h-auto flex justify-center  mx-5 md:mx-0"
-          containerClass="w-full  md:w-9/12 flex "
+          itemClass="w-auto h-auto flex justify-center mx-5 md:mx-0"
+          containerClass="w-full md:w-9/12 flex "
           focusOnSelect={true}
-          centerMode
+          infinite
         >
           {certificate.map(({ certificateImage, certificateName, url }) => {
             const data = { certificateImage, certificateName, url };

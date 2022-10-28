@@ -17,7 +17,7 @@ export default function Navbar() {
 
   const items = NAVIGATION.map(({ route, name }) => {
     return (
-      <a className="navEffect" key={route} href={route}>
+      <a className="navEffect" key={name} href={route}>
         {name}
       </a>
     );

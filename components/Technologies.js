@@ -7,7 +7,7 @@ export default function Technologies({ tecnologies = [] }) {
       <div className="flex flex-wrap justify-start">
         {tecnologies.map(({ logo, name, url }) => {
           return (
-            <div key={url} className="mr-4 flex flex-col justify-center">
+            <div key={url} className="mr-4 mb-2 flex flex-col justify-center">
               <Image src={logo} width="34px" height="34px" alt="technologies" />
               <p className="underline underline-offset-2  text-sm text-center">
                 <a rel="noopener noreferrer" target="_blank" href={url}>

@@ -33,6 +33,7 @@ export default function Proyects() {
         className="w-full"
         itemClass="h-auto flex flex-col justify-center w-full p-2 md:p5  "
         containerClass="w-full md:w-11/12 flex justify-self-center"
+        sliderClass="flex items-start"
       >
         {data.map(
           ({ name, description, repository, image, tecnologies, url }) => {

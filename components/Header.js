@@ -20,10 +20,20 @@ export default function Header() {
           />
         </div>
       </div>
-      <div className="w-full flex flex-col justify-start md:w-4/5">
+      <div className="w-full flex flex-col justify-start md:w-4/5 relative">
         <ContactIcon className="flex justify-around w-64 rounded-lg  h-12 items-center ml-5 bg-violet_section" />
-        <div className="h-11 bg-redButton rounded-xl w-24 mt-5 ml-5 text-white flex justify-center items-center cursor-pointer text-lg">
-          <a>Ver cv</a>
+        <div className="w-full flex ">
+          <div className="h-11 bg-redButton rounded-xl w-24 mt-5 ml-5 text-white flex justify-center items-center cursor-pointer text-lg">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              type="file"
+              download="María_Bracho_Villanueva__CV"
+              href="/files/Frontend_María_Bracho_Villanueva__CV.pdf"
+            >
+              Ver cv
+            </a>
+          </div>
         </div>
       </div>
     </div>

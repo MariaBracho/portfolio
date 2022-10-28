@@ -17,8 +17,8 @@ export default function ContactIcon({ className }) {
           className="cursor-pointer"
           src={linkedin}
           alt="red"
-          width="34px"
-          height="34px"
+          width="36px"
+          height="36px"
         />
       </a>
       <a
@@ -31,8 +31,8 @@ export default function ContactIcon({ className }) {
           className="cursor-pointer"
           src={gitHub}
           alt="red"
-          width="34px"
-          height="34px"
+          width="36px"
+          height="36px"
         />
       </a>
       <a
@@ -45,8 +45,8 @@ export default function ContactIcon({ className }) {
           className="cursor-pointer"
           src={whatsapp}
           alt="red"
-          width="34px"
-          height="34px"
+          width="36px"
+          height="36px"
         />
       </a>
       <a
@@ -59,8 +59,8 @@ export default function ContactIcon({ className }) {
           className="cursor-pointer"
           src={gmail}
           alt="red"
-          width="34px"
-          height="34px"
+          width="36px"
+          height="36px"
         />
       </a>
     </div>

@@ -6,8 +6,8 @@ import Arrow from "../public/assets/Icons/arrowLeft.svg";
 export default function Home() {
   return (
     <div className="h-screen">
-      <a name="inicio" />
       <Navbar />
+      <a name="inicio" />
       <Header />
       <div className="absolute left-[calc(50%-20px)] animate-bounce bottom-0">
         <a href="#aboutme-arrow">
