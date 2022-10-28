@@ -7,34 +7,62 @@ import gmail from "../public/assets/Icons/icon_gmail.svg";
 export default function ContactIcon({ className }) {
   return (
     <div className={className}>
-      <Image
-        className="cursor-pointer"
-        src={linkedin}
-        alt="red"
-        width="34px"
-        height="34px"
-      />
-      <Image
-        className="cursor-pointer"
-        src={gitHub}
-        alt="red"
-        width="34px"
-        height="34px"
-      />
-      <Image
-        className="cursor-pointer"
-        src={whatsapp}
-        alt="red"
-        width="34px"
-        height="34px"
-      />
-      <Image
-        className="cursor-pointer"
-        src={gmail}
-        alt="red"
-        width="34px"
-        height="34px"
-      />
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="https://www.linkedin.com/in/mar%C3%ADa-bracho-villanueva/"
+        className="flex h-full items-center"
+      >
+        <Image
+          className="cursor-pointer"
+          src={linkedin}
+          alt="red"
+          width="34px"
+          height="34px"
+        />
+      </a>
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="https://github.com/MariaBracho"
+        className="flex h-full items-center"
+      >
+        <Image
+          className="cursor-pointer"
+          src={gitHub}
+          alt="red"
+          width="34px"
+          height="34px"
+        />
+      </a>
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="https://walink.co/61d8cd"
+        className="flex h-full items-center"
+      >
+        <Image
+          className="cursor-pointer"
+          src={whatsapp}
+          alt="red"
+          width="34px"
+          height="34px"
+        />
+      </a>
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="mailto:mariabrachovillanueva@gmail.com"
+        className="flex h-full items-center"
+      >
+        <Image
+          className="cursor-pointer"
+          src={gmail}
+          alt="red"
+          width="34px"
+          height="34px"
+        />
+      </a>
     </div>
   );
 }

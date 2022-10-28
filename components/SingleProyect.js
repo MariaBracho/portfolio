@@ -1,5 +1,6 @@
 import Technologies from "./Technologies";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function SingleProyect({
   name,
@@ -7,42 +8,58 @@ export default function SingleProyect({
   repository,
   image,
   tecnologies,
+  url,
 }) {
+  const [showMore, setShowMore] = useState(false);
+
+  const seeMore = () => {
+    showMore ? setShowMore(false) : setShowMore(true);
+  };
+
   return (
-    <div className="h-auto rounded-xl shadow-md w-full p-5">
+    <div className="h-auto rounded-xl shadow-md w-full p-2 md:p-5 relative">
       <p className="text-xl font-medium flex justify-start">{name}</p>
-      <div className="shadow-md rounded-xl h-60 w-full">
-        <div className="w-full h-4/6 rounded-t-xl flex justify-center">
-          <div className="">
+      <div className="rounded-xl h-auto w-full">
+        <div className="h-4/6 rounded-t-xl flex justify-center">
+          <div className="w-full h-60 relative">
             <Image
               src={image}
-              layout="fixed"
+              layout="fill"
               alt="proyect"
-              className="object-cover"
+              className="object-cover rounded-t-xl"
             />
           </div>
         </div>
-        <div className="h-1/3 w-full p-4  relative">
-          <p className="truncate">{description}</p>
-          <button className="text-neutral-800 inline absolute left-4">
-            ver mas
-          </button>
+        <div className="h-auto flex flex-wrap w-full p-4 relative bg-neutral-300 rounded-b-xl min-h-[80px]">
+          <p className={showMore ? "" : "truncate"}>{description}</p>
+          <a
+            className="text-neutral-800  cursor-pointer ml-2"
+            onClick={seeMore}
+          >
+            {showMore ? "see less" : "see more"}
+          </a>
         </div>
       </div>
       <Technologies tecnologies={tecnologies} />
-      <div className="w-full flex justify-end my-3">
-        <a
-          href={repository}
-          className="border-redButton border text-redButton rounded-xl p-2 mr-2"
-        >
-          Repositorio
-        </a>
-        <a
-          href={repository}
-          className="bg-redButton text-white rounded-xl pt-2 px-3"
-        >
-          Web
-        </a>
+      <div className="w-full flex justify-end items-end content-end">
+        <div className="flex self-end">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href={repository}
+            className="border-redButton border text-redButton rounded-xl mr-2 p-3"
+          >
+            Repositorio
+          </a>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href={url}
+            className="bg-redButton text-white rounded-xl p-3"
+          >
+            Web
+          </a>
+        </div>
       </div>
     </div>
   );

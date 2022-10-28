@@ -5,15 +5,15 @@ import SingleProyect from "./SingleProyect";
 const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 3000 },
-    items: 5,
+    items: 4,
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
+    items: 2,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 1,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -26,27 +26,29 @@ export default function Proyects() {
 
   return (
     <div className="flex flex-col items-center w-full h-full ">
-      <a name="proyects" />
+      <a name="projects" />
       <p className="title">Mis proyectos</p>
       <Carousel
         responsive={responsive}
-        className="w-full "
-        itemClass="h-auto flex justify-center w-10/12 p-5 max-w-md"
+        className="w-full"
+        itemClass="h-auto flex flex-col justify-center w-full p-2 md:p5  "
         containerClass="w-full md:w-11/12 flex justify-self-center"
-        infinite
       >
-        {data.map(({ name, description, repository, image, tecnologies }) => {
-          return (
-            <SingleProyect
-              key={name}
-              name={name}
-              description={description}
-              repository={repository}
-              image={image}
-              tecnologies={tecnologies}
-            />
-          );
-        })}
+        {data.map(
+          ({ name, description, repository, image, tecnologies, url }) => {
+            return (
+              <SingleProyect
+                key={url}
+                name={name}
+                description={description}
+                repository={repository}
+                url={url}
+                image={image}
+                tecnologies={tecnologies}
+              />
+            );
+          }
+        )}
       </Carousel>
     </div>
   );

@@ -7,15 +7,15 @@ export default function Footer() {
         <div className="bg-violet_section rounded-xl flex flex-col w-56 h-24 justify-center">
           <div>
             <p className="text-white text-center text-xl font-medium">
-              !Trabajemos juntos!{" "}
+              ¡Trabajemos juntos!{" "}
             </p>
           </div>
           <ContactIcon className="flex justify-around h-11 items-center" />
         </div>
       </div>
-      <div className="flex justify-between p-5">
+      <div className="flex justify-between p-5 text-white bg-neutral-800">
         <p>©2022</p>
-        <p>Desarrollado con 🖤</p>
+        <p>Desarrollado con 💜</p>
       </div>
     </footer>
   );

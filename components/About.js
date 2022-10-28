@@ -1,23 +1,52 @@
 export default function About() {
   return (
     <div className="bg-[url('../public/assets/Images/background.svg')] flex justify-center  w-full h-[500px] bg-no-repeat bg-cover my-8  text-white px-5  py-12 text-sm md:px-11 md:bg-[url('../public/assets/Images/bg_md.svg')] md:h-[600px]">
-      <a name="aboutme" />
       <div className="w-full md:w-4/5 mt-5 md:mt-11">
         <p className="text-2xl font-medium text-center">¿Por qué yo?</p>
         <div className="w-full flex justify-center">
           <div className="grid grid-cols-3  items-center h-80 w-full justify-center md:w-4/5 ">
-            <div>Me desenvuelvo con tecnologías frontend..</div>
-            <div>Creativa.</div>
-            <div>Autodidacta</div>
+            <div className="flex gap-1">
+              <div className="w-6 h-auto ">
+                <div className="h-4 w-4 rounded-full bg-green_light" />
+              </div>
+              <p>Me desenvuelvo con tecnologías frontend..</p>
+            </div>
+            <div className="flex gab-1">
+              <div className="w-6 h-auto">
+                <div className="h-4 w-4 rounded-full bg-green_light" />
+              </div>
+              <p>Creativa.</p>
+            </div>
+            <div className="flex gab-1">
+              <div className="w-6 h-auto">
+                <div className="h-4 w-4 rounded-full bg-green_light" />
+              </div>
+              <p>Autodidacta</p>
+            </div>
             <div className="col-start-2 col-end-3 row-start-1 row-end-3 row-span-4 h-full flex items-end justify-center ">
               <div className="bg-[url('../public/assets/Images/human.svg')] w-[120px] bg-no-repeat  bg-contain h-[120px] justify-self-center md:w-40 md:h-40 "></div>
             </div>
-            <div>
-              Cuando tengo problemas trato de buscar una solución, en lugar de
-              estresarme.
+            <div className="flex gab-2">
+              <div className="w-6 h-auto">
+                <div className="h-4 w-4 rounded-full bg-green_light" />
+              </div>
+              <p>
+                Cuando tengo problemas trato de buscar una solución, en lugar de
+                estresarme.
+              </p>
             </div>
-            <div>Muchas ganas de seguir aprendiendo.</div>
-            <div className="col-start-3 col-end-4">Curiosa</div>
+            <div className="flex gab-1">
+              <div className="w-6 h-auto">
+                <div className="h-4 w-4 rounded-full bg-green_light" />
+              </div>
+              <p>Muchas ganas de seguir aprendiendo.</p>
+            </div>
+            <div className="flex gab-1 col-start-3 col-end-4">
+              <div className="w-6 h-auto">
+                <div className="h-4 w-4 rounded-full bg-green_light" />
+              </div>
+              <p>Curiosa</p>
+            </div>
           </div>
         </div>
       </div>

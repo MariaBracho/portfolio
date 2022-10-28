@@ -7,10 +7,8 @@ export default function Header() {
     <div className="w-full h-4/5 flex flex-col items-center justify-center">
       <div className="grid grid-cols-[60%,40%] items-center  w-full px-5 h-64 md:w-4/5 md:justify-self-center justify-center">
         <div>
-          <p className="text-2xl font-bold mb-3 md:text-[40px]">
-            !Hola!, soy María Bracho
-          </p>
-          <p className="text-lg md:text-4xl font-medium">Frontend Developer</p>
+          <p className="text-4xl font-bold mb-3 ">¡Hola!, soy María Bracho</p>
+          <p className="text-2xl md:text-3xl font-medium">Frontend Developer</p>
         </div>
         <div className="w-full h-auto">
           <Image
@@ -18,12 +16,13 @@ export default function Header() {
             src={Tech}
             alt="human"
             layout="responsive"
+            priority
           />
         </div>
       </div>
       <div className="w-full flex flex-col justify-start md:w-4/5">
-        <ContactIcon className="flex justify-around w-64 rounded-lg  h-11 items-center ml-5 bg-violet_section" />
-        <div className="h-8 bg-redButton rounded-xl w-20 mt-5 ml-5 text-white flex justify-center items-center cursor-pointer">
+        <ContactIcon className="flex justify-around w-64 rounded-lg  h-12 items-center ml-5 bg-violet_section" />
+        <div className="h-11 bg-redButton rounded-xl w-24 mt-5 ml-5 text-white flex justify-center items-center cursor-pointer text-lg">
           <a>Ver cv</a>
         </div>
       </div>

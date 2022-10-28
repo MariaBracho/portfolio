@@ -4,17 +4,16 @@ import Carousel from "react-multi-carousel";
 
 const responsive = {
   superLargeDesktop: {
-    // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
-    items: 5,
+    items: 3,
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
+    items: 2,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 1,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -32,9 +31,11 @@ export default function CertificatesCarousel() {
       <div className="flex w-full justify-center">
         <Carousel
           responsive={responsive}
-          itemClass="w-28 h-auto flex justify-center"
+          itemClass="w-auto h-auto flex justify-center mx-5"
           containerClass="w-full  md:w-9/12 flex justify-self-center"
-          infinite
+          removeArrowOnDeviceType="mobile"
+          focusOnSelect={true}
+          centerMode
         >
           {certificate.map(
             ({ certificateImage, certificateName, institution }) => {
