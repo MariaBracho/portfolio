@@ -11,8 +11,8 @@ function Home() {
   return (
     <div>
       <Head>
-        <title>Portfolio | Maria Bracho</title>
-        <meta name="description" content="Portfolio" />
+        <title>Portafolio | Maria Bracho</title>
+        <meta name="description" content="Portafolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Inicio />
