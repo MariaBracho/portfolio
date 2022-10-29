@@ -30,4 +30,13 @@
   .title {
     @apply font-medium text-2xl text-center mb-5;
   }
+  .pointContainer {
+    @apply w-6 h-auto mt-1;
+  }
+  .point {
+    @apply h-4 w-4 rounded-full bg-green_light;
+  }
+  .icon {
+    @apply flex h-full items-center cursor-pointer;
+  }
 }

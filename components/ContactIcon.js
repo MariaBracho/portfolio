@@ -11,57 +11,33 @@ export default function ContactIcon({ className }) {
         rel="noopener noreferrer"
         target="_blank"
         href="https://www.linkedin.com/in/mar%C3%ADa-bracho-villanueva/"
-        className="flex h-full items-center"
+        className="icon"
       >
-        <Image
-          className="cursor-pointer"
-          src={linkedin}
-          alt="red"
-          width="36px"
-          height="36px"
-        />
+        <Image src={linkedin} alt="red" width="36px" height="36px" />
       </a>
       <a
         rel="noopener noreferrer"
         target="_blank"
         href="https://github.com/MariaBracho"
-        className="flex h-full items-center"
+        className="icon"
       >
-        <Image
-          className="cursor-pointer"
-          src={gitHub}
-          alt="red"
-          width="36px"
-          height="36px"
-        />
+        <Image src={gitHub} alt="red" width="36px" height="36px" />
       </a>
       <a
         rel="noopener noreferrer"
         target="_blank"
         href="https://walink.co/61d8cd"
-        className="flex h-full items-center"
+        className="icon"
       >
-        <Image
-          className="cursor-pointer"
-          src={whatsapp}
-          alt="red"
-          width="36px"
-          height="36px"
-        />
+        <Image src={whatsapp} alt="red" width="36px" height="36px" />
       </a>
       <a
         rel="noopener noreferrer"
         target="_blank"
         href="mailto:mariabrachovillanueva@gmail.com"
-        className="flex h-full items-center"
+        className="icon"
       >
-        <Image
-          className="cursor-pointer"
-          src={gmail}
-          alt="red"
-          width="36px"
-          height="36px"
-        />
+        <Image src={gmail} alt="red" width="36px" height="36px" />
       </a>
     </div>
   );
