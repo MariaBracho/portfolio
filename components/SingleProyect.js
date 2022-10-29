@@ -1,6 +1,6 @@
 import Technologies from "./Technologies";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function SingleProyect({
   name,
@@ -38,7 +38,7 @@ export default function SingleProyect({
             className="text-neutral-600  cursor-pointer ml-2"
             onClick={seeMore}
           >
-            {showMore ? "see less" : "see more"}
+            {showMore ? "Ver menos" : "Ver más"}
           </a>
         </div>
       </div>

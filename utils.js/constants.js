@@ -17,6 +17,7 @@ export const TECHNOLOGY_URL = {
   yup: "https://www.npmjs.com/package/yup",
   reactRouter: "https://reactrouter.com/en/main",
   zustand: "https://github.com/pmndrs/zustand",
+  HTML: "https://developer.mozilla.org/es/docs/Web/HTML",
 };
 
 export const TECHNOLOGY_NAME = {
@@ -36,4 +37,5 @@ export const TECHNOLOGY_NAME = {
   yup: "Yup",
   reactRouter: "React router",
   zustand: "Zustand",
+  HTML: "HTML",
 };

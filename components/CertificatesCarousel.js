@@ -26,8 +26,8 @@ export default function CertificatesCarousel() {
 
   return (
     <div className="my-8">
-      <a name="certificates" />
-      <p className="title">Certificates</p>
+      <a name="certificados" />
+      <p className="title">Certificados</p>
       <div className="flex w-full justify-center ">
         <Carousel
           responsive={responsive}

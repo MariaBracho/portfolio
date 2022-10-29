@@ -26,7 +26,7 @@ export default function Proyects() {
 
   return (
     <div className="flex flex-col items-center w-full h-full ">
-      <a name="projects" />
+      <a name="proyectos" />
       <p className="title">Mis proyectos</p>
       <Carousel
         responsive={responsive}

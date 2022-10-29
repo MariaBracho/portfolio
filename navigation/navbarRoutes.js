@@ -8,12 +8,12 @@ const NAVIGATION = [
     name: "Sobre mí",
   },
   {
-    route: "#projects",
-    name: "Projects",
+    route: "#proyectos",
+    name: "Proyectos",
   },
   {
-    route: "#certificates",
-    name: "Certificates",
+    route: "#certificados",
+    name: "Certificados",
   },
 ];
 
