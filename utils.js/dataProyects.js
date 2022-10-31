@@ -10,7 +10,7 @@ import reactHookForm from "/public/assets/Icons/reactHookForm.svg";
 import react from "/public/assets/Icons/react.svg";
 import adoptADog from "/public/assets/Images/adoptADopt.PNG";
 import wikipedia from "/public/assets/Images/Wikipedia.png";
-import google from "/public/assets/Images/Screenshot_google.png";
+import google from "/public/assets/Images/google.PNG";
 import miTurno from "/public/assets/Images/miTurno.PNG";
 import calculator from "/public/assets/Images/calculator.PNG";
 import advicceGenerator from "/public/assets/Images/adviceGenerator.PNG";
@@ -270,13 +270,12 @@ const DATA_PROYECTS = () => {
       ],
     },
     {
-      name: "Clon de Wikipedia",
-      image: wikipedia,
+      name: "Clon de Google",
+      image: google,
       description:
-        "Clon de Wikipedia para escritorio, desarrollado con HTML , flexbox y CSS grid .",
-      repository:
-        "https://github.com/MariaBracho/Wikipedia-clon/tree/main/Wikipedia-clon",
-      url: "https://mariabracho.github.io/Wikipedia-clon/index.html",
+        "Clon de Google para escritorio, desarrollado con HTML y CSS.",
+      repository: "https://github.com/MariaBracho/google-clon-2",
+      url: "https://mariabracho.github.io/google-clon-2/public/",
       tecnologies: [
         {
           name: TECHNOLOGY_NAME.HTML,
@@ -291,12 +290,13 @@ const DATA_PROYECTS = () => {
       ],
     },
     {
-      name: "Clon de Google",
-      image: google,
+      name: "Clon de Wikipedia",
+      image: wikipedia,
       description:
-        "Clon de Google para escritorio, desarrollado con HTML y CSS.",
-      repository: "https://github.com/MariaBracho/Google-clon",
-      url: "https://mariabracho.github.io/Google-clon/public/",
+        "Clon de Wikipedia para escritorio, desarrollado con HTML , flexbox y CSS grid .",
+      repository:
+        "https://github.com/MariaBracho/Wikipedia-clon/tree/main/Wikipedia-clon",
+      url: "https://mariabracho.github.io/Wikipedia-clon/index.html",
       tecnologies: [
         {
           name: TECHNOLOGY_NAME.HTML,
