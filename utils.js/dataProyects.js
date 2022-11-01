@@ -272,8 +272,7 @@ const DATA_PROYECTS = () => {
     {
       name: "Clon de Google",
       image: google,
-      description:
-        "Clon de Google para escritorio, desarrollado con HTML y CSS.",
+      description: "Clon de Google, desarrollado con HTML y CSS.",
       repository: "https://github.com/MariaBracho/google-clon-2",
       url: "https://mariabracho.github.io/google-clon-2/public/",
       tecnologies: [

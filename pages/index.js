@@ -13,7 +13,7 @@ function Home() {
       <Head>
         <title>Portafolio | Maria Bracho</title>
         <meta name="description" content="Portafolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/assets/Icons/maria-favicon.png" />
       </Head>
       <Inicio />
       <About />
