@@ -7,7 +7,7 @@ export default function Header() {
     <div className="w-full h-4/5 flex flex-col items-center justify-center">
       <div className="grid grid-cols-[60%,40%] items-center  w-full px-5 h-64 md:w-4/5 md:justify-self-center justify-center">
         <div>
-          <p className="text-4xl font-bold mb-3 ">¡Hola!, soy María Bracho</p>
+          <p className="text-4xl font-bold mb-3 ">¡Hola! Soy María Bracho</p>
           <p className="text-2xl md:text-3xl font-medium">Frontend Developer</p>
         </div>
         <div className="w-full h-auto">
@@ -31,7 +31,7 @@ export default function Header() {
               download="María_Bracho_Villanueva__CV"
               href="/files/Frontend_María_Bracho_Villanueva__CV.pdf"
             >
-              Ver cv
+              Ver CV
             </a>
           </div>
         </div>
