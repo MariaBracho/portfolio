@@ -1,7 +1,6 @@
 import Image from "next/image";
 import linkedin from "../public/assets/Icons/icon_linkedin.svg";
 import gitHub from "../public/assets/Icons/icon_github.svg";
-import whatsapp from "../public/assets/Icons/icon_whatsapp.svg";
 import gmail from "../public/assets/Icons/icon_gmail.svg";
 
 export default function ContactIcon({ className }) {
@@ -22,14 +21,6 @@ export default function ContactIcon({ className }) {
         className="icon"
       >
         <Image src={gitHub} alt="red" width="36px" height="36px" />
-      </a>
-      <a
-        rel="noopener noreferrer"
-        target="_blank"
-        href="https://walink.co/61d8cd"
-        className="icon"
-      >
-        <Image src={whatsapp} alt="red" width="36px" height="36px" />
       </a>
       <a
         rel="noopener noreferrer"
