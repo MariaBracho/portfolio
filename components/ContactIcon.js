@@ -34,7 +34,7 @@ export default function ContactIcon({ className }) {
       <a
         rel="noopener noreferrer"
         target="_blank"
-        href="mailto:mariabrachovillanueva@gmail.com"
+        href="mailto:mariabrachovillanuevadev@gmail.com"
         className="icon"
       >
         <Image src={gmail} alt="red" width="36px" height="36px" />

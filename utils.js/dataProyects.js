@@ -18,7 +18,6 @@ import tendencia from "/public/assets/Images/tendencia.png";
 import BusinessCard from "/public/assets/Images/BusinessCard.PNG";
 import math from "/public/assets/Images/math.PNG";
 import piedraPapelOTiejera from "/public/assets/Images/piedraPapelOTijera.PNG";
-import portafolio from "/public/assets/Images/portafolio.png";
 import { TECHNOLOGY_URL, TECHNOLOGY_NAME } from "./constants";
 import nextIcon from "/public/assets/Icons/next.svg";
 import reactHelmet from "/public/assets/Icons/reactHelmet.svg";
@@ -81,26 +80,6 @@ const DATA_PROYECTS = () => {
           name: TECHNOLOGY_NAME.daisyUI,
           url: TECHNOLOGY_URL.daisyUI,
           logo: daisyUI,
-        },
-      ],
-    },
-    {
-      name: "Mi portafolio web",
-      image: portafolio,
-      description:
-        "Mi portafolio web desarrollado con next y tailwind. Con este proyecto Realicé el diseño con figma.",
-      repository: "https://github.com/MariaBracho/portfolio",
-      url: "https://maria-bracho-dev.vercel.app/",
-      tecnologies: [
-        {
-          name: TECHNOLOGY_NAME.next,
-          url: TECHNOLOGY_URL.next,
-          logo: nextIcon,
-        },
-        {
-          name: TECHNOLOGY_NAME.tailwind,
-          url: TECHNOLOGY_URL.tailwind,
-          logo: tailwind,
         },
       ],
     },
